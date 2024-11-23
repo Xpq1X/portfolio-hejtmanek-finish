@@ -73,9 +73,8 @@ function App() {
 
         <section id="contact" className="content">
           <h1>Kontakt</h1>
-          <p>Tel: +420 328 381 128</p>
           <p>Email: david07@post.cz</p>
-          <a href="" className="contact-link">Můj kontakt naleznete zde!</a>
+          <a href="" className="contact-link">Full Contact</a>
         </section>
       </main>
 
