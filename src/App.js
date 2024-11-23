@@ -74,7 +74,7 @@ function App() {
         <section id="contact" className="content">
           <h1>Kontakt</h1>
           <p>Email: david07@post.cz</p>
-          <a href="" className="contact-link">Full Contact</a>
+          <a href="kontact-hejtmanek.vercel.app" className="contact-link">Full Contact</a>
         </section>
       </main>
 
