@@ -21,7 +21,7 @@ function App() {
     <Router> 
       <div className="app-container">
         <header className="header">
-          <div className="logo">David Hejtmánek - Portfolio</div>
+        <div className="logo">David Hejtmánek - Portfolio</div>
           <div className="nav-links">
             <Link to="/">Home</Link>
             <Link to="/projects">Projects</Link>

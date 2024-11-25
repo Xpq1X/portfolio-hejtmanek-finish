@@ -44,9 +44,27 @@ body {
 }
 
 .header .logo {
-  font-size: 24px;
+  font-size: 2rem;
   font-weight: bold;
   animation: colorChange 15s infinite;
+}
+
+@keyframes colorChange {
+  0% {
+    color: red;
+  }
+  25% {
+    color: #4CAF50;
+  }
+  50% {
+    color: #1E90FF;
+  }
+  75% {
+    color: #FFD700;
+  }
+  100% {
+    color: red;
+  }
 }
 
 .header .nav-links a {
@@ -247,3 +265,4 @@ html, body {
 #skills {
   margin-top: 50px;
 }
+
