@@ -3,12 +3,16 @@ body {
   font-family: 'Arial', sans-serif;
   background-color: black;
   color: white;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .app-container {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  flex-grow: 1;
 }
 
 .header {
@@ -64,7 +68,7 @@ main {
   flex-grow: 1;
   overflow-y: auto;
   width: 100%;
-  margin-top: 1750px;
+  margin-top: 1700px;
 }
 
 .content {
@@ -108,7 +112,7 @@ main {
 }
 
 .project-item img {
-  width: 100%; 
+  width: 100%;
   height: 250px;
   object-fit: cover;
   border-radius: 10px;
@@ -156,6 +160,10 @@ main {
   color: red;
   padding: 15px;
   text-align: center;
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+  margin-top: auto;
 }
 
 .footer p {
@@ -234,24 +242,6 @@ main {
 html, body {
   height: 100%;
   overflow-x: hidden;
-}
-
-@keyframes colorChange {
-  0% {
-    color: red;
-  }
-  25% {
-    color: yellow;
-  }
-  50% {
-    color: purple;
-  }
-  75% {
-    color: grey;
-  }
-  100% {
-    color: red;
-  }
 }
 
 #skills {
